@@ -24,6 +24,51 @@ namespace CSPractice1
             // #1 12-2. 출력
             Console.WriteLine("Hello World");
             Console.Write("줄바꿈 싫어");
+
+            // #1 12-3. 기본 자료형
+            // 정수
+            Console.WriteLine(52 + 4 - 1);
+            // 사칙연산자 = 산술 연산 = Arithmetic Operator
+            // + - * / %
+
+            // 실수(Real number)
+            Console.WriteLine(52.0);
+
+            // 문자(Character)
+            Console.WriteLine('A');
+            Console.WriteLine('가');
+
+            // 문자열(string)
+            Console.WriteLine("Hello World");
+            // Escape Character 탈출 문자
+            Console.WriteLine("미\n\n림\t마\"고");
+
+            // 문자열 연결 연산자(Concatenation operator)
+            Console.WriteLine("Hello" + " " + "World");
+
+            // 문자열 인덱스 접근 [ ]
+            Console.WriteLine("Hello world"[4]); // "o" 출력
+            // Console.WriteLine("Hello world"[100]); // 예외 발생
+            // Console.WriteLine("Hello world"[-3]); // 예외 발생
+
+            // 주의
+            Console.WriteLine('가' + '힣');
+            // 문자열 연결 연산자 X, 덧셈 연산자임
+
+            // 논리(Boolean)
+            Console.WriteLine(true);
+            Console.WriteLine(false);
+
+            // 비교 연산자(Comparison operator)
+            // == != > < >= <=
+
+            // 논리 연산자(Logical Operator)
+            // && || !   and or not
+            Console.WriteLine(!true);
+            Console.WriteLine(true && false);
+            Console.WriteLine(true || false);
+
+
         }
     }
 }
