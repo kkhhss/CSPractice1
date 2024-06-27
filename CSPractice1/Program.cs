@@ -88,6 +88,12 @@ namespace CSPractice1
             var varnumber = 20;
             // var abc; // X 반드시 초기화 해줘야함
 
+            // #1 12-9. 입력
+            string input = Console.ReadLine();
+            Console.WriteLine(input);
+
+
+
         }
     }
 }
