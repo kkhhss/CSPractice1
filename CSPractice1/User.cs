@@ -15,6 +15,7 @@ namespace CSPractice1
 
     class Product
     {
+        public static double taxratio = 1.0;
         public string name;
         public int price;
     }

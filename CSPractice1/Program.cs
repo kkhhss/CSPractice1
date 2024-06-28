@@ -194,6 +194,12 @@ namespace CSPractice1
                 name = "공짜폰"
             };
 
+            // #4 21-4 클래스 변수
+            Console.WriteLine(Product.taxratio);
+            // Console.WriteLine(p1.taxratio);   // JAVA는 가능하지만 C#은 불가능
+
+
+
 
 
 
