@@ -20,3 +20,4 @@ namespace CSPractice1
         public int price;
     }
 }
+
